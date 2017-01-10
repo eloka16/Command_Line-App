@@ -12,17 +12,8 @@
  });
  
  console.log('Welcome to the WEATHER and TWEET API');
- console.log('Press any Key to see the prompt...')
- 
- // function that is called at the beginning of the application
- // function intro() {
- //   console.log('Press "1" to get the weather of a location');
- //   console.log('Press "2" to post a tweet on tweeter');
- //   console.log('Type "exit" to exit the application');
- // }
- // intro();
- 
- // Initiate the Questions asked to the user
+console.log('Press any Key and Enter to see the prompt...')
+
  var read = readline.createInterface({
    input: process.stdin,
    output: process.stdout
